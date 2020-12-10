@@ -55,7 +55,7 @@ apt install -y --no-install-recommends \
 apt autoremove -y
 
 wget --directory-prefix ${USER_DIR}/ https://telematics.poliba.it/images/file/boccadoro/${ARCHIVE_NAME}
-tar -C ${USER_DIR}/ -xvzf ${ARCHIVE_NAME}
+tar -C ${USER_DIR}/ -xvzf ${USER_DIR}/${ARCHIVE_NAME}
 echo "export LD_LIBRARY_PATH=/home/${USER_NAME}/iod-sim-exe/lib/" >> /${USER_DIR}/.bashrc
 mkdir ${USER_DIR}/results
 
