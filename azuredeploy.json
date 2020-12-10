@@ -43,7 +43,7 @@
         "subnetName": "Subnet-1",
         "subnetPrefix": "10.0.0.0/24",
         "virtualNetworkResName": "vmVNET",
-        "vmName": "iotLabVM",
+        "vmName": "iodLabVM",
         "vmOsDiskName": "[concat(variables('vmName'),'_OsDisk')]"
     },
     "resources": [
